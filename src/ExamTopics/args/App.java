@@ -1,4 +1,7 @@
 package ExamTopics.args;
 
 public class App {
+    public static void main(String[] args) {
+        System.out.println(args[0] +":"+ args[1]);
+    }
 }
