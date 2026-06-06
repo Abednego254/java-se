@@ -1,0 +1,16 @@
+package gratis.arrays;
+
+public class TestThree {
+    public static void main(String[] args) {
+        String[] array = { "A", "B", "C", "D" };
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+            if(array[i].equals("C")){
+                continue;
+            }
+            System.out.println("Work Done");
+            break;
+        }
+    }
+}
