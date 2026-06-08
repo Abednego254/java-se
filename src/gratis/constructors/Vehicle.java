@@ -1,4 +1,4 @@
-//package gratis.arrays.constructors;
+//package gratis.constructors;
 //
 //public class Vehicle {
 //    int x;
