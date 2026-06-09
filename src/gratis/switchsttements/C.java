@@ -1,6 +1,6 @@
 package gratis.switchsttements;
 
-public class C {
+public class C extends B {
     public C() {
         System.out.println("C");
     }
