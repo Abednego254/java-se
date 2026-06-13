@@ -17,7 +17,12 @@ public class Test64 {
         float d = (float) f;
 
         int a = 2;
-        float g = (float) a;
+        long g = a;
+
+        long b = 3;
+        int h = (int) b;
+        System.out.println(g);
+        System.out.println(b);
 
 
         for (int x : numbers) {

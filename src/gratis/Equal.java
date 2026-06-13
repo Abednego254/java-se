@@ -14,8 +14,7 @@ public class Equal {
 
         boolean b1 = (str1 == str3);
         boolean b2 = (str1.equals(str3));
-        boolean b3 = (str1 == str4);
 
-        System.out.println(b1 +":"+ b2 +":"+ b3);
+        System.out.println(b1 +":"+ b2);
     }
 }

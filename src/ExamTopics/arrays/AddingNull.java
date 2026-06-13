@@ -11,7 +11,7 @@ public class AddingNull {
         points.add(3);
         points.add(4);
         points.add(null);
-        points.remove(1);
+        points.remove(2);
         points.remove(null);
         System.out.println(points);
     }

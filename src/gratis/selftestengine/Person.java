@@ -12,8 +12,7 @@ public class Person {
     public Person() {}
 
     public Person(String name, int age) {
-        Person person = this;
-        setName(name);
+        Person person = new Person(name);
         setAge(age);
         System.out.println(person.age);
         System.out.println(person.name);
