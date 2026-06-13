@@ -1,6 +1,6 @@
 package gratis.book;
 
-abstract class Book implements Readable {
+abstract class Book implements  Readable {
     public void readBook() {}
-    public abstract void setBookMark();
+//    public abstract void setBookMark();
 }

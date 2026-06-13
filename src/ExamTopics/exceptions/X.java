@@ -3,7 +3,7 @@ package ExamTopics.exceptions;
 import java.io.IOException;
 
 public class X {
-    public void printFileContent() throws IOException{
+    public void printFileContent() throws Exception{
 
         throw new IOException();
     }

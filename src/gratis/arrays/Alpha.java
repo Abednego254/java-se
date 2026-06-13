@@ -1,5 +1,8 @@
 package gratis.arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Alpha {
     int ns;
     static int s;
@@ -18,9 +21,17 @@ public class Alpha {
         Alpha ref1 = new Alpha(50);
         Alpha ref2 = new Alpha(125);
         Alpha ref3 = new Alpha(100);
+        Alpha ref4 = new Alpha(1000);
 
         ref1.doPrint();
         ref2.doPrint();
         ref3.doPrint();
+        ref4.doPrint();
+
+        List<String> str = new ArrayList<String>();
+        ArrayList str1 = new ArrayList() {
+
+        };
+
     }
 }

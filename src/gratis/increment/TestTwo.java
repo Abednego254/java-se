@@ -14,10 +14,8 @@ public class TestTwo {
     public static void main(String[] args) {
         TestTwo check1 = new TestTwo();
         TestTwo check2 = new TestTwo();
-        TestTwo check3 = new TestTwo();
         check1.changeCount();
         check2.changeCount();
-        check3.changeCount();
-        System.out.println(check1.count +" : " + check2.count  + " : " + check3.count);
+        System.out.println(check1.count +" : " + check2.count);
     }
 }

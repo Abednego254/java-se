@@ -11,7 +11,8 @@ public class Test {
         names.add("Rick");
         names.add("Bran");
 
-        if (names.remove("Bran")) names.remove("Rick");
+        if (names.remove("Bran"))
+            System.out.println(names.remove("Jon"));
         System.out.println(names);
     }
 }
