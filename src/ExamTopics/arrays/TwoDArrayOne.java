@@ -7,9 +7,8 @@ public class TwoDArrayOne {
             for(int j = 0; j < arr[i].length; j++){
                 System.out.print(arr[i][j] + " ");
                 if(arr[i][j].equals("B")){
-                    continue;
+                    break;
                 }
-                System.out.println("B");
             }
             continue;
         }
