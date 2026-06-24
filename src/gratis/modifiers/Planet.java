@@ -3,11 +3,11 @@ package gratis.modifiers;
 abstract class Planet {
     protected void revolve() {}
 
-    public abstract void rotate();
+    abstract void rotate();
 }
 
 class Earth extends Planet {
-    protected void revolve() {}
+    public void revolve() {}
 
-    public void rotate() {}
+    protected void rotate() {}
 }

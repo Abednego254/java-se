@@ -16,6 +16,10 @@ public class Inheritance {
             System.out.println("C ");
         }
         }
+
+    public static void main(String[] args) {
+
+    }
     }
 
 

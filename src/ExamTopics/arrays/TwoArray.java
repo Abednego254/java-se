@@ -9,7 +9,7 @@ public class TwoArray {
 
         for(int[] a: arr) {
             for(int i : a) {
-                System.out.println(i +" ");
+                System.out.print(i +" ");
             }
             System.out.println();
         }

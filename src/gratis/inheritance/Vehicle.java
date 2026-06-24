@@ -13,18 +13,20 @@
 //class Car extends Vehicle {
 //    String trans;
 //
-//    Car(String trans) {
+//    Car(String trans, int maxSpeed) {
+//        super();
+//
 //        this.trans = trans;
 //    }
 //
 //    Car(String type, int maxSpeed, String trans) {
 //        super(type, maxSpeed);
-//        this(trans);
+//        this.trans = trans;
 //    }
 //}
 //
 //class Test {
 //    public static void main(String[] args) {
-//        Car c1 = new Car("Auto ");
+//        Car c1 = new Car("Auto ", 21);
 //    }
 //}

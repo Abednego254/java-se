@@ -7,5 +7,9 @@ public class Test extends Acc {
         Test obj = new Test();
 
         int s1 = obj.s;
+        int s2 = obj.r;
+
+        System.out.println("5 + 2 = " + 5 + 2);
+        System.out.println("5 + 2 = " + (5) + (2));
     }
 }

@@ -6,7 +6,7 @@ public class Test7 {
         int idx = 0;
 
         for (String s : strs) {
-            strs[idx].concat(" element"+ idx);
+            strs[idx] = strs[idx].concat(" element"+ idx);
             idx++;
         }
 

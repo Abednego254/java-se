@@ -1,11 +1,11 @@
 package gratis.CertKiller;
 
 class Caller {
-    public void init() {
+    private void init() {
         System.out.println("Initialized");
     }
 
-    public void start() {
+    protected void start() {
         init();
         System.out.println("Started");
     }
